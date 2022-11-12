@@ -32,12 +32,12 @@ def diary():
         dfmessage = input("Message: ")
         dfendl = input("Type the ending line: ")
 
-        dfdayo = str('Day:',dfday)
-        dftimeo = str('Time:',dftime)
-        dfdateo = str('Date:',dfdate)
-        dfsubjecto = str('Subject:',dfsubject)
-        dfmessageo = str('Message:',dfmessage)
-        dfendlo = str(dfendl)
+        dfdayo = ('Day:',dfday)
+        dftimeo = ('Time:',dftime)
+        dfdateo = ('Date:',dfdate)
+        dfsubjecto = ('Subject:',dfsubject)
+        dfmessageo = ('Message:',dfmessage)
+        dfendlo = (dfendl)
 
         newfilename = input("Type the name of the file: ")
             
